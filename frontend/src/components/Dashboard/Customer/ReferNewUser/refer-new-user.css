@@ -1,0 +1,119 @@
+.refer-new-user {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 12px;
+    max-width: 480px;
+    margin: 50px auto;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .refer-new-user h1 {
+    text-align: center;
+    color: #333;
+    font-size: 2rem;
+    margin-bottom: 25px;
+    font-weight: 600;
+  }
+  
+  .refer-new-user form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .refer-new-user label {
+    font-size: 1.1rem;
+    color: #555;
+    font-weight: 500;
+    margin-bottom: 8px;
+  }
+  
+  .refer-new-user input,
+  .refer-new-user .react-tel-input .form-control {
+    width: 100%;
+    padding: 14px 16px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    background-color: #fafafa;
+  }
+  
+  .refer-new-user input:focus,
+  .refer-new-user .react-tel-input .form-control:focus {
+    border-color: #0066ff;
+    background-color: #ffffff;
+    outline: none;
+  }
+  
+  .refer-new-user .error,
+  .refer-new-user .success {
+    text-align: center;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+  
+  .refer-new-user .error {
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+  }
+  
+  .refer-new-user .success {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+  }
+  
+  .refer-new-user button {
+    padding: 12px 24px;
+    background-color: #0066ff;
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .refer-new-user button:hover {
+    background-color: #0052cc;
+    transform: translateY(-2px);
+  }
+  
+  .refer-new-user button:active {
+    background-color: #0040a6;
+    transform: translateY(0);
+  }
+  
+  .refer-new-user button:disabled {
+    background-color: #b0c4de;
+    cursor: not-allowed;
+  }
+  
+  @media (max-width: 600px) {
+    .refer-new-user {
+      padding: 30px;
+    }
+  
+    .refer-new-user h1 {
+      font-size: 1.8rem;
+    }
+  
+    .refer-new-user label {
+      font-size: 1rem;
+    }
+  
+    .refer-new-user input,
+    .refer-new-user .react-tel-input .form-control {
+      font-size: 0.95rem;
+    }
+  
+    .refer-new-user button {
+      font-size: 1rem;
+    }
+  }
+  

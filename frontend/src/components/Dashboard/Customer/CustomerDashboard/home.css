@@ -1,0 +1,81 @@
+.customer-dashboard {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f4f7fc;
+}
+
+.dashboard-title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.profitbox {
+  margin-bottom: 30px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Fortnightlyprofit, .accountstatus, .referralteam {
+  background: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.total-profit, .status, .team-count {
+  font-size: 1.1rem;
+  color: #333;
+}
+
+/* Chart Container */
+.chart-container {
+  position: relative;
+  height: 300px; /* Set the height for the chart */
+  margin-bottom: 20px;
+}
+
+/* Rest of the CSS for styling */
+.customer-dashboard {
+  padding: 20px;
+}
+
+.dashboard-title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.profitbox {
+  margin-bottom: 30px;
+}
+
+.table-container {
+  margin-top: 20px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  padding: 8px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+/* For small screens or responsiveness */
+@media (max-width: 768px) {
+  .col-lg-4, .col-lg-6 {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .chart-container {
+    height: 200px; /* Adjust height for smaller screens */
+  }
+}

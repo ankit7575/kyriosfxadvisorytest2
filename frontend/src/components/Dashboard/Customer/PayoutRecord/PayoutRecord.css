@@ -1,0 +1,123 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 0;
+}
+
+.payout-container {
+  max-width: 1000px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.page-title {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.section-title {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.payout-records, .withdrawal-form, .request-history {
+  margin-top: 20px;
+}
+
+.payout-table, .history-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.payout-table th, .history-table th,
+.payout-table td, .history-table td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ccc;
+}
+
+.withdraw-btn, .submit-withdraw-btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.submit-withdraw-btn {
+  background-color: #007BFF;
+}
+
+.withdraw-btn:hover, .submit-withdraw-btn:hover {
+  background-color: #45a049;
+}
+
+.withdraw-input-container {
+  display: flex;
+  align-items: center;
+}
+
+.withdraw-input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 200px;
+}
+
+.error-message {
+  color: red;
+  font-size: 1rem;
+  margin-top: 10px;
+}
+
+.balance-amount {
+  font-weight: bold;
+  color: #007BFF;
+}
+
+
+/* Styles for the Withdrawal Request Form */
+.withdrawal-form {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.withdraw-input-container {
+  display: flex;
+  align-items: center;
+}
+
+.withdraw-input {
+  width: 200px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.submit-withdraw-btn {
+  background-color: #28a745;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.submit-withdraw-btn:hover {
+  background-color: #218838;
+}
+
+.error-message {
+  color: red;
+  font-size: 1rem;
+  margin-top: 10px;
+}

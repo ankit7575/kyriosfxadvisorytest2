@@ -1,0 +1,137 @@
+/* Container for the Profile */
+.profile-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  font-family: 'Arial', sans-serif;
+}
+
+/* Title */
+.profile-title {
+  text-align: center;
+  font-size: 2.2rem;
+  margin-bottom: 40px;
+  color: #2c3e50;
+}
+
+/* Profile Card */
+.profile-card {
+  background-color: white;
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Sections */
+.form-group {
+  margin-bottom: 25px;
+}
+
+.form-group label {
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #34495e;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.form-group input:focus {
+  border-color: #3498db;
+  outline: none;
+}
+
+/* Button Styles */
+.btn-primary, .btn-secondary {
+  padding: 12px 25px;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary {
+  background-color: #3498db;
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #2980b9;
+}
+
+.btn-secondary {
+  background-color: #e74c3c;
+  color: white;
+}
+
+.btn-secondary:hover {
+  background-color: #c0392b;
+}
+
+/* Profile Info */
+.profile-info {
+  padding: 20px;
+  font-size: 1rem;
+  color: #34495e;
+}
+
+/* Password Update Section */
+.password-update {
+  margin-top: 30px;
+}
+
+.password-field {
+  position: relative;
+}
+
+.password-toggle {
+  position: absolute;
+  top: 5%;
+  right: 1%;
+
+  border: none;
+  cursor: pointer;
+}
+
+/* Error Messages */
+.error-message {
+  color: red;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+/* Loading State */
+.loading {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #888;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .profile-container {
+    padding: 15px;
+  }
+
+  .profile-title {
+    font-size: 1.8rem;
+  }
+
+  .profile-card {
+    padding: 20px;
+  }
+
+  .form-group input {
+    padding: 10px;
+  }
+}
